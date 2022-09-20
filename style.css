@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "MabinogiClassicR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --mainColor: #238ef1;
+}
+
+span {
+  font-family: "MabinogiClassicR";
+  margin-left: 12px;
+  font-size: 36px;
+}
+
+.myName {
+  text-decoration: underline solid var(--mainColor);
+}
+
+.myJob {
+  text-decoration: underline solid var(--mainColor);
+}
+
+button {
+  background-color: red;
+  border: 2px solid black;
+  padding: 6px 26px;
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 24px;
+  font-family: "Cafe24Oneprettynight";
+  box-shadow: -4px -4px 0 -2px #fa780a, 4px 4px 0 -2px #fa780a;
+  transition: all 0.5s;
+}
+
+button:hover {
+  box-shadow: -4px -4px 0 0px #238ef1, 4px 4px 0 0px;
+}
+
+button:active {
+  box-shadow: -4px -4px 0 0px #238ef1, 4px 4px 0 0px;
+  transition: all 0.1s;
+}
